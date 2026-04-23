@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <form action="Pharmacy.php" method="POST"></form>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Pharmacy</a>
+            <nav class="navigation">
+                <a href="register.html">Register</a>
+                <a href="pharmacy.html">Pharmacy</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section id="medications">
+            <h2>Medications</h2>
+            <form id="medication-form">
+                <input type="text" id="medication-name" placeholder="Medication Name" required>
+                <input type="number" id="medication-quantity" placeholder="Quantity" required>
+                <input type="number" id="medication-price" placeholder="Price" required>
+                <button type="submit">Add Medication</button>
+            </form>
+            <ul id="medication-list"></ul>
+        </section>
+
+        <section id="customers">
+            <h2>Customers</h2>
+            <form id="customer-form">
+                <input type="text" id="customer-name" placeholder="Customer Name" required>
+                <input type="text" id="customer-phone" placeholder="Phone Number" required>
+                <button type="submit">Add Customer</button>
+            </form>
+            <ul id="customer-list"></ul>
+        </section>
+
+        <section id="prescriptions">
+            <h2>Prescriptions</h2>
+            <form id="prescription-form">
+                <input type="text" id="prescription-customer" placeholder="Customer Name" required>
+                <input type="text" id="prescription-medication" placeholder="Medication Name" required>
+                <input type="number" id="prescription-quantity" placeholder="Quantity" required>
+                <button type="submit">Add Prescription</button>
+            </form>
+            <ul id="prescription-list"></ul>
+        </section>
+      
+        <button id="print-receipt-button">Print Receipt</button>
+    </main>
+
+    <section id="chatbot">
+        <h2>Chatbot</h2>
+        <div id="chatbox">
+            <div id="chat-log"></div>
+            <input type="text" id="chat-input" placeholder="Ask about types of medicines..." required>
+            <button id="send-button">Send</button>
+        </div>
+    </section>
+
+    <button id="show-types-button">Show Types of Medicines</button>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

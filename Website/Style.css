@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.logo {
+    text-decoration: none;
+    color: #d9dbe2;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+justify-content: space-between;
+}
+
+.navigation {
+    display: inline-block; 
+    align-items: center; 
+    padding-left: 1200px;
+}
+
+.navigation a {
+    color: #d9dbe2;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-left: 30px; 
+
+}
+
+.navigation a:hover {
+    color: #000000;
+}
+
+ 
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+background-color:  #35374B;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2 {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4e9eff;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card .icon {
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3{
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+}
+#show-types-button {
+    background: #007bff;
+    color: white; 
+    border: none;
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 20px 0; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+
+#show-types-button:hover {
+    background-color: #45a049; 
+}
+#chatbot {
+    margin-top: 20px;
+}
+
+#chatbox {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#chat-log {
+    margin-bottom: 10px;
+}
+
+#chat-input {
+    width: 70%;
+    padding: 5px;
+}
+
+#send-button {
+    padding: 5px;
+}
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #e3f2fd; /* Light blue background */
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cards {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 50%;
+    margin: 50px auto;
+}
+
+.title {
+    font-size: 2em;
+    color: #1565c0; /* Primary blue color */
+    margin-bottom: 10px;
+}
+
+.card {
+    width: 100%;
+    padding: 20px;
+    background: #f1f8ff; /* Very light blue */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    font-size: 50px;
+    color: #1565c0; /* Primary blue color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+a {
+    color: #1e88e5; /* Bright blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #1565c0; /* Primary blue button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #0d47a1; /* Darker blue on hover */
+}
+
+p {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}
+
+
